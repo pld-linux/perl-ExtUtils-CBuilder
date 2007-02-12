@@ -6,7 +6,7 @@
 %define	pdir	ExtUtils
 %define	pnam	CBuilder
 Summary:	ExtUtils::CBuilder - Compile and link C code for Perl modules
-Summary(pl):	EXtUtils::CBuilder - kompilowanie i linkowanie kodu C dla modu³ów Perla
+Summary(pl.UTF-8):   EXtUtils::CBuilder - kompilowanie i linkowanie kodu C dla moduÅ‚Ã³w Perla
 Name:		perl-ExtUtils-CBuilder
 Version:	0.18
 Release:	1
@@ -29,13 +29,13 @@ purposes as well. However, it is not intended as a general
 cross-platform interface to all your C building needs. That would
 have been a much more ambitious goal!
 
-%description -l pl
-Ten modu³ potrafi budowaæ czê¶ci modu³óê perlowych napisane w C
-wywo³uj±c odpowiednie kompilatory i linkery w sposób wieloplatformowy.
-Powsta³ z my¶l± o projekcie Module::Build, ale mo¿e byæ przydatny
-tak¿e do innych celów. Nie jest jednak przeznaczony do u¿ywania jako
-ogólny wieloplatformowy interfejs do wszelkich potrzeb budowania
-programów w C. To by³by zbyt ambitny cel.
+%description -l pl.UTF-8
+Ten moduÅ‚ potrafi budowaÄ‡ czÄ™Å›ci moduÅ‚Ã³Ä™ perlowych napisane w C
+wywoÅ‚ujÄ…c odpowiednie kompilatory i linkery w sposÃ³b wieloplatformowy.
+PowstaÅ‚ z myÅ›lÄ… o projekcie Module::Build, ale moÅ¼e byÄ‡ przydatny
+takÅ¼e do innych celÃ³w. Nie jest jednak przeznaczony do uÅ¼ywania jako
+ogÃ³lny wieloplatformowy interfejs do wszelkich potrzeb budowania
+programÃ³w w C. To byÅ‚by zbyt ambitny cel.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
