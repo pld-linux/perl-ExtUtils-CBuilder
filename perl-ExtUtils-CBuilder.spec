@@ -6,7 +6,7 @@
 %define	pdir	ExtUtils
 %define	pnam	CBuilder
 Summary:	ExtUtils::CBuilder - Compile and link C code for Perl modules
-Summary(pl.UTF-8):   EXtUtils::CBuilder - kompilowanie i linkowanie kodu C dla modułów Perla
+Summary(pl.UTF-8):	EXtUtils::CBuilder - kompilowanie i linkowanie kodu C dla modułów Perla
 Name:		perl-ExtUtils-CBuilder
 Version:	0.18
 Release:	1
