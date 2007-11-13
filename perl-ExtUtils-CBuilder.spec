@@ -8,13 +8,13 @@
 Summary:	ExtUtils::CBuilder - Compile and link C code for Perl modules
 Summary(pl.UTF-8):	EXtUtils::CBuilder - kompilowanie i linkowanie kodu C dla modułów Perla
 Name:		perl-ExtUtils-CBuilder
-Version:	0.18
+Version:	0.21
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/ExtUtils/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d119f0c6c12787a8d5b255208c3c74c5
+# Source0-md5:	aa5050d68d65858cdf58ceeef84d6bb2
 URL:		http://search.cpan.org/dist/ExtUtils-CBuilder/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
