@@ -13,10 +13,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/D/DA/DAGOLDEN/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/ExtUtils/DAGOLDEN/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c2b6aa8d22416574c0a3f658136a7958
 URL:		http://search.cpan.org/dist/ExtUtils-CBuilder/
-BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
