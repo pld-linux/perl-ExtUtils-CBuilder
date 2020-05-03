@@ -14,10 +14,11 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/ExtUtils/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	cf12adecda91703057e5b10e0898aeb6
-URL:		http://search.cpan.org/dist/ExtUtils-CBuilder/
+URL:		https://metacpan.org/release/ExtUtils-CBuilder
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Perl-OSType >= 1
 BuildRequires:	perl-Test-Simple >= 0.47
